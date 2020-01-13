@@ -1,0 +1,453 @@
+body{
+	margin: 0;
+}
+#header {
+	width: 100%;  
+}
+.menu{
+	margin-right: 5%;
+	margin-top: 2%;
+	width: 60%;
+	float: right;
+}
+.menu a{
+	color: black;
+	text-decoration: none;
+}
+.menu a:hover p3{
+	border:solid 3px white;
+}
+.menu a:hover p4{
+	border:solid 3px white;
+}
+.menu p3{
+	border:solid 3px rgba(0, 0, 0, 0);
+	padding: 1%;
+	margin-right: 3%;
+	font-size:140%;
+	transition: 0.4s;
+}
+.menu p4{
+	border:solid 3px rgba(0, 0, 0, 0);
+	padding: 1%;
+	font-size:130%;
+	transition: 0.4s;
+}
+.menu_mb{
+	display: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	opacity: 1;
+	width: 7%;
+	height: 10%;
+	right: 0;
+	background-color: none;
+	position: fixed;
+	overflow: hidden;
+	position: absolute;
+	transition: .6s;
+}
+.menu_mb img{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 20%;
+}
+.menu_mb a{
+	color: black;
+	text-decoration: none;
+}
+.menu_mb p3{
+	border:solid 3px rgba(0, 0, 0, 0);
+	padding: 1%;
+	margin-right: 5%;
+	font-size:15%;
+	float: left;
+	display: none;
+	transition: 2s;
+}
+.menu_mb p4{
+	border:solid 3px rgba(0, 0, 0, 0);
+	padding: 1%;
+	font-size:15%;
+	float: left;
+	display: none;
+}
+.menu_mb:hover{
+	padding-top: 10%;
+	opacity: 0.8;
+	width: 100%;
+	height: 20%;
+	background-color: #FF8000;
+}
+.menu_mb:hover img{
+	display: none;
+}
+.menu_mb:hover p3{
+	font-size:145%;
+	display: block;
+}
+.menu_mb:hover p4{
+	font-size:135%;
+	display: block;
+}
+.menu_mb a:hover p3{
+	border:solid 3px white;
+}
+.menu_mb a:hover p4{
+	border:solid 3px white;
+}
+.top{
+	font-family: 'Oswald', sans-serif;
+	width: 100%;
+	height: 30%;
+	background-color: #f4d430;
+}
+.top p1{
+	margin-left: 10%;
+	font-size: 250%;
+	font-weight: 600;
+}
+.top p2{
+	font-size: 200%;
+}
+.top a{
+	color: black;
+	text-decoration: none;
+}
+.down{
+	width: 100%;
+}
+.logo_banner{
+	position: relative;
+	width: 100%; 
+}
+.butt p4{
+	border-radius: 20px;
+	font-size: 130%;
+	font-weight: 600;
+	font-family: 'Oswald', sans-serif;
+	padding: 0.7%;
+	margin-left: 45%;
+	text-align: center;
+	background: linear-gradient(to right, #E0E0F8, #f4d430);
+	width: 11%;
+	top: 65%;
+	position: absolute;
+	transition: 0.7s;
+}
+.butt a{
+	text-decoration: none;
+	color: black;
+}
+.butt a:hover p4{
+	background: white;
+}
+#content{
+	width: 100%;
+	margin-top: 5%;
+}
+.hey_1{
+	margin-left: 20%;
+	width: 60%;
+	height: 17%;
+}
+.hey_1 p5{
+	font-family: 'Oswald', sans-serif;
+	font-size: 400%;
+}
+.hey_2{
+	float: left;
+	margin: 1%;
+	margin-left: 15%;
+	width: 30%;
+	height: 70%;
+}
+.hey_2 p6{
+	font-family: 'Oswald', sans-serif;
+	font-size: 190%;
+}
+.hey_3{
+	float: left;
+	margin: 1%;
+	width: 35%;
+	height: 70%;
+}
+.hey_3 p7{
+	font-size: 135%;
+	font-family: 'Oswald', sans-serif;
+}
+.kollage{
+	margin-top: 7%;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+}
+.kollage p1{
+	font-size: 120%;
+	font-weight: 600;
+}
+.kollage p2{
+	font-size: 110%; 
+}
+.img_1{
+	width: 40%;
+	position: relative;
+	margin: 0.5%;
+	margin-left: 14%;
+	float: left;
+}
+.img_1 img{
+	float: left;
+	width: 100%;
+}
+.text_1{
+	text-align: center;
+	left: 60%;
+	opacity: 0;
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	background-color: #F781D8;
+	transition: .6s;
+}
+.img_1:hover .text_1{
+	left: 0;
+	opacity: 1;
+}
+.img_2{
+	width: 31.1%;
+	position: relative;
+	margin: 0.5%;
+	float: left;
+}
+.img_2 img{
+	float: left;
+	width: 100%;
+}
+.text_2{
+	text-align: center;
+	top: 0;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	background-color: #EFFBFB;
+	transition: .6s;
+}
+.img_2:hover .text_2{
+	top:60%;
+	opacity: 1;
+}
+.img_3{
+	width: 31.1%;
+	position: relative;
+	margin: 0.5%;
+	margin-left: 14%;
+	float: left;
+}
+.img_3 img{
+	float: left;
+	width: 100%;
+}
+.text_3{
+	text-align: center;
+	top: 0;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	background-color: #8181F7;
+	transition: .6s;
+}
+.img_3:hover .text_3{
+	top: 60%;
+	opacity: 1;
+}
+.img_4{
+	width: 40%;
+	position: relative;
+	margin: 0.5%;
+	float: left;
+}
+.img_4 img{
+	float: left;
+	width: 100%;
+}
+.text_4{ 
+	text-align: center;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	background-color: #f4d430;
+	transition: .6s;
+}
+.img_4:hover .text_4{
+	left: 60%;
+	opacity: 1;
+}
+.frt{
+	width: 100%;
+	margin-top: 5%;
+}
+.work{
+	padding-top: 6%;
+	font-family: 'Oswald', sans-serif;
+	width: 100%;
+	height: 70%;
+}
+.blockup{
+	margin-left: 4%;
+	float: left;
+	position: relative;
+	box-shadow: 0px 0px 10px 1px #F5DA81;
+	text-align: center;
+	width: 20%;
+	height: 38%;
+	background: linear-gradient(to top,#FE2E64 , #f4d430 );
+}
+.blockup img{
+	width: 60%;
+}
+.blockdown{
+	top: 0;
+	position:absolute;
+	opacity: 0;
+	box-shadow: 0px 0px 10px 1px #F5DA81;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 94%;
+	height: 120%;
+	background-color: white;
+    transition: .7s;
+}
+.blockdown p1{
+	margin-left: 3%;
+	font-size: 120%;
+}
+.blockdown p2{
+	margin-top: 5%;
+	font-size: 95%;
+}
+.blockup:hover .blockdown{
+	top: 100%;
+	opacity: 1;
+}
+#footer{
+	width: 100%;
+	bottom: 0;
+}
+#footer img{
+	width: 100%;
+}
+
+@media screen and (max-width:1066px){
+	.menu{
+		display: none;
+	}
+	.menu_mb{
+		display: block;
+	}
+	.top{
+		text-align: center;
+	}
+	.top p1{
+		margin-left: 0;
+	}
+	.hey_1 p5{
+		font-size: 300%;
+	}
+	.hey_2 p6{
+		font-size: 135%;
+	}
+	.hey_3 p7{
+		font-size: 110%;
+	}
+	.kollage p1{
+		font-size: 100%;
+	}
+	.kollage p2{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width:980px){
+	.hey_2{
+		height: 40%;
+	}
+	.hey_3{
+		height: 40%;
+	}
+	
+	.top{
+		padding-top: 20%;
+		height: 30%;
+	}
+	.kollage p1{
+		font-size: 90%;
+	}
+	.kollage p2{
+		font-size: 80%;
+	}
+	#header{
+		height: 60%;
+	}
+	.butt p4{
+		display: none;
+	}
+	.work{
+		height: 150%;
+	}
+	.blockup{
+		margin-top: 4%;
+		height: 20%;
+		width: 40%;
+		margin-left: 30%;
+	}
+	.blockup:hover .blockdown{
+	top: 0;
+	}
+	.blockup img{
+		width: 30%;
+	}
+}
+@media screen and (max-width:900px){
+	.kollage p1{
+		font-size: 80%;
+	}
+	.kollage p2{
+		font-size: 70%;
+	}
+	.hey_1 p5{
+		font-size: 200%;
+	}
+}
+@media screen and (max-width:815px){
+	.kollage p1{
+		font-size: 70%;
+	}
+	.kollage p2{
+		font-size: 60%;
+	}
+}
+@media screen and (max-width:740px){
+	.kollage p1{
+		font-size: 60%;
+	}
+	.kollage p2{
+		font-size: 50%;
+	}
+}
+@media screen and (max-width:715px){
+	.menu_mb:hover p3{
+	font-size:135%;
+	}
+.menu_mb:hover p4{
+	font-size:125%;
+	}
+}
+@media screen and (max-width:700px){
+	.butt p4{
+		width: 20%;
+		margin-left:40%; 
+	}
+}
