@@ -34,9 +34,9 @@ body{
 	transition: 0.4s;
 }
 .menu_mb{
+	text-align: center;
 	display: none;
 	font-family: 'Oswald', sans-serif;
-	text-align: center;
 	opacity: 1;
 	width: 7%;
 	height: 10%;
@@ -57,19 +57,19 @@ body{
 	text-decoration: none;
 }
 .menu_mb p3{
+	float: left;
 	border:solid 3px rgba(0, 0, 0, 0);
 	padding: 1%;
 	margin-right: 5%;
 	font-size:15%;
-	float: left;
 	display: none;
-	transition: 2s;
+	transition: .6s;
 }
 .menu_mb p4{
+	float: right;
 	border:solid 3px rgba(0, 0, 0, 0);
 	padding: 1%;
 	font-size:15%;
-	float: left;
 	display: none;
 }
 .menu_mb:hover{
@@ -340,6 +340,140 @@ body{
 #footer img{
 	width: 100%;
 }
+.close-button {
+  cursor: pointer;
+}
+
+#hamburger-open {
+  z-index: 1;
+  position: relative;
+  margin-left: 90%;
+  width: 30px;
+  height: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spans {
+  width: 100%;
+  height: 10%;
+  background-color: #111820;
+  border-radius: 500px;
+  opacity: 1;
+  transition-property: background-color, transform, opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.white {
+  background-color: #f5f5f5;
+  transition-duration: 0.5s;
+  transition-delay: none;
+}
+
+.spanOneRotate {
+  transform: translateY(9px) rotate(-45deg);
+  transition-property: background-color, transform;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.spanTwoRotate {
+  transform: rotate(45deg);
+  transition-property: background-color, transform;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.spanThreeHide {
+  transition-property: background-color, opacity;
+  opacity: 0;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.modal-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50vw;
+  height: auto;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+
+.menuitem {
+  position: relative;
+  font-family: "Karla", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: #a5a5a5;
+  height: 75px;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+}
+
+.menuitem:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  left: -6px;
+  background-color: #111820;
+  height: 1px;
+  z-index: -1;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.menuitem:nth-of-type(1):hover:after {
+  background-color: #ff4338;
+  transform: scaleY(20) translateY(-60%);
+}
+
+.menuitem:nth-of-type(2):hover:after {
+  background-color: #3cd52e;
+  transform: scaleY(20) translateY(-60%);
+}
+
+.menuitem:nth-of-type(3):hover:after {
+  background-color: #00b3e3;
+  transform: scaleY(20) translateY(-60%);
+}
+
+.menuitem:nth-of-type(4):hover:after {
+  background-color: #ff4338;
+  transform: scaleY(20) translateY(-60%);
+}
+
+.menuitem:hover {
+  color: #f5f5f5;
+}
+
+.show {
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 1s;
+}
+#header_mb{
+	display: none;
+	width: 100%;
+	height: 20%;
+	background-color: #f4d430;
+}
 
 @media screen and (max-width:1066px){
 	.menu{
@@ -371,83 +505,25 @@ body{
 	}
 }
 @media screen and (max-width:980px){
-	.hey_2{
-		height: 40%;
-	}
-	.hey_3{
-		height: 40%;
-	}
-	
-	.top{
-		padding-top: 20%;
-		height: 30%;
-	}
-	.kollage p1{
-		font-size: 90%;
-	}
-	.kollage p2{
-		font-size: 80%;
+	body{
+		position: relative;
 	}
 	#header{
-		height: 60%;
-	}
-	.butt p4{
 		display: none;
 	}
-	.work{
-		height: 150%;
+	#content{
+		display: none;
 	}
-	.blockup{
-		margin-top: 4%;
-		height: 20%;
-		width: 40%;
-		margin-left: 30%;
+	.menu_mb{
+		display: none;
 	}
-	.blockup:hover .blockdown{
-	top: 0;
+	#header_mb{
+		display: block;
 	}
-	.blockup img{
-		width: 30%;
+	#hamburger-open{
+		display: flex;
 	}
-}
-@media screen and (max-width:900px){
-	.kollage p1{
-		font-size: 80%;
-	}
-	.kollage p2{
-		font-size: 70%;
-	}
-	.hey_1 p5{
-		font-size: 200%;
-	}
-}
-@media screen and (max-width:815px){
-	.kollage p1{
-		font-size: 70%;
-	}
-	.kollage p2{
-		font-size: 60%;
-	}
-}
-@media screen and (max-width:740px){
-	.kollage p1{
-		font-size: 60%;
-	}
-	.kollage p2{
-		font-size: 50%;
-	}
-}
-@media screen and (max-width:715px){
-	.menu_mb:hover p3{
-	font-size:135%;
-	}
-.menu_mb:hover p4{
-	font-size:125%;
-	}
-}
-@media screen and (max-width:700px){
-	.butt p4{
-		width: 20%;
-		margin-left:40%; 
+	.modal-menu{
+		display: flex;
 	}
 }
