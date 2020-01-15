@@ -1,4 +1,5 @@
 body{
+	overflow-x: hidden;
 	margin: 0;
 }
 #header {
@@ -348,8 +349,8 @@ body{
   z-index: 1;
   position: relative;
   margin-left: 90%;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   display: none;
   flex-direction: column;
   justify-content: space-around;
@@ -396,7 +397,7 @@ body{
 
 .modal-menu {
   position: absolute;
-  top: 50%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -469,10 +470,30 @@ body{
   transition-delay: 1s;
 }
 #header_mb{
+	overflow: hidden;
 	display: none;
 	width: 100%;
 	height: 20%;
 	background-color: #f4d430;
+}
+.logo_mb{
+	float: left;
+}
+.logo_mb a{
+	text-decoration: none;
+	color: black;
+}
+.logo_mb p1{
+	font-size: 250%;
+	font-family: 'Oswald', sans-serif;
+}
+.logo_mb p2{
+	font-size: 170%;
+	font-family: 'Oswald', sans-serif;
+}
+#content_mb{
+	width: 100%;
+	height: auto;
 }
 
 @media screen and (max-width:1066px){
@@ -525,5 +546,14 @@ body{
 	}
 	.modal-menu{
 		display: flex;
+	}
+	.hey_1{
+		margin-top: 6%;
+	}
+	.hey_2{
+		height: 60%;
+	}
+	.hey_3{
+		height: 60%;
 	}
 }
