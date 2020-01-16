@@ -473,7 +473,7 @@ body{
 	overflow: hidden;
 	display: none;
 	width: 100%;
-	height: 12%;
+	height: 13%;
 	background-color: #f4d430;
 }
 .logo_mb{
@@ -491,7 +491,11 @@ body{
 	font-size: 170%;
 	font-family: 'Oswald', sans-serif;
 }
+.logo_banner_mb{
+		display: none;
+	}
 #content_mb{
+	display: none;
 	width: 100%;
 	height: auto;
 }
@@ -547,27 +551,34 @@ body{
 	.modal-menu{
 		display: flex;
 	}
+	.logo_banner_mb{
+		display: block;
+	}
+	#content_mb{
+		display: block;
+	}
 	.hey_1{
-		width: 30%;
+		margin-bottom: 2%;
+		height: 24%;
 		width: 75%;
 		margin-top: 6%;
 	}
 	.hey_1 p5{
-		font-size: 450%;
+		font-size: 400%;
 	}
 	.hey_2{
 		margin-left: 10%;
 		width: 43%;
-		height: 70%;
+		height: 60%;
 	}
 	.hey_2 p6{
-		font-size: 230%;
+		font-size: 190%;
 	}
 	.hey_3{
 		width: 43%;
-		height: 70%;
+		height: 60%;
 	}
 	.hey_3 p7{
-		font-size: 170%;
+		font-size: 140%;
 	}
 }
