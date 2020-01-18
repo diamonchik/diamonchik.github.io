@@ -1,4 +1,6 @@
 body{
+	background: url(img/back.png);
+	background-size: 100%;
 	overflow-x: hidden;
 	margin: 0;
 }
