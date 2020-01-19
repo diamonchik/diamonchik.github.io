@@ -399,7 +399,7 @@ body{
 
 .modal-menu {
   position: absolute;
-  top: 17%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -501,6 +501,26 @@ body{
 	width: 100%;
 	height: auto;
 }
+.hey{
+	margin-top: 6%;
+	margin-bottom: 6%;
+	text-align: center;
+	width: 84%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.hey p5{
+	font-size: 450%;
+	font-family: 'Oswald', sans-serif;
+}
+.hey p6{
+	font-size: 200%;
+	font-family: 'Oswald', sans-serif;
+}
+.hey p7{
+	font-size: 160%;
+	font-family: 'Oswald', sans-serif;
+}
 
 @media screen and (max-width:1066px){
 	.menu{
@@ -559,28 +579,5 @@ body{
 	#content_mb{
 		display: block;
 	}
-	.hey_1{
-		margin-bottom: 2%;
-		height: 24%;
-		width: 75%;
-		margin-top: 6%;
-	}
-	.hey_1 p5{
-		font-size: 400%;
-	}
-	.hey_2{
-		margin-left: 10%;
-		width: 43%;
-		height: 60%;
-	}
-	.hey_2 p6{
-		font-size: 190%;
-	}
-	.hey_3{
-		width: 43%;
-		height: 60%;
-	}
-	.hey_3 p7{
-		font-size: 140%;
-	}
+	
 }
