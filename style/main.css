@@ -579,5 +579,37 @@ body{
 	#content_mb{
 		display: block;
 	}
-	
+	.img_1{
+		margin-left: 10%;
+		width: 79%;
+	}
+	.text_1{
+		left: 0;
+		opacity: 1;
+	}
+	.img_2{
+		margin-left: 10%;
+		width: 79%;
+	}
+	.text_2{
+		top:60%;
+		opacity: 1;
+		background-color: #81BEF7;
+	}
+	.img_3{
+		margin-left: 10%;
+		width: 79%;
+	}
+	.text_3{
+		top: 60%;
+		opacity: 1;
+	}
+	.img_4{
+		margin-left: 10%;
+		width: 79%;
+	}
+	.text_4{
+		left: 60%;
+		opacity: 1;
+	}
 }
