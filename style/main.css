@@ -1,7 +1,8 @@
 body{
-	background: url(img/back.png);
+	background: url(img/back.png)  ;
 	background-size: 100%;
 	overflow-x: hidden;
+
 	margin: 0;
 }
 #header {
@@ -524,7 +525,56 @@ body{
 	font-size: 160%;
 	font-family: 'Oswald', sans-serif;
 }
-
+.btn {
+	position: relative;
+    overflow: hidden;
+    z-index: 1;
+	padding: 10px 40px;
+	margin: 0 20px;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    font-size: 15px;    
+    text-transform: uppercase;
+	background: #f4d430;
+	border-width: 0;
+    box-shadow: 5px 5px 0 #532831;
+	outline: none;
+	cursor: pointer;
+    transition: 1.5s;
+}
+.btn:before,
+.btn:after {
+	content: "";
+	position: absolute;  
+    height: 200px;
+    left: -50%;
+    margin-top: -100px;    
+    top: 50%;
+    width: 200px;
+	border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+    transform: scale(0);
+}
+.btn:before {
+	background: #ffeede;   
+    transition: .8s ease-out;
+}
+.btn:after {   
+    transition: .4s ease-in .3s;
+}
+.btn:hover {
+    color: #532831;
+}
+.btn:hover:before,
+.btn:hover:after{
+    opacity: 1;
+    transform: scale(4);
+}
 @media screen and (max-width:1066px){
 	.menu{
 		display: none;
@@ -582,6 +632,9 @@ body{
 	#content_mb{
 		display: block;
 	}
+	.kollage{
+		text-align: center;
+	}
 	.kollage p1{
 		font-size: 180%;
 	}
@@ -589,16 +642,20 @@ body{
 		font-size: 140%;
 	}
 	.img_1{
+		box-shadow: 0px 0px 10px 5px #F5DA81;
 		margin-left: 10%;
 		width: 79%;
+		margin-bottom: 5%;
 	}
 	.text_1{
 		left: 0;
 		opacity: 1;
 	}
 	.img_2{
+		box-shadow: 0px 0px 10px 5px #F5DA81;
 		margin-left: 10%;
 		width: 79%;
+		margin-bottom: 5%;
 	}
 	.text_2{
 		top:60%;
@@ -606,16 +663,20 @@ body{
 		background-color: #81BEF7;
 	}
 	.img_3{
+		box-shadow: 0px 0px 10px 5px #F5DA81;
 		margin-left: 10%;
 		width: 79%;
+		margin-bottom: 5%;
 	}
 	.text_3{
 		top: 60%;
 		opacity: 1;
 	}
 	.img_4{
+		box-shadow: 0px 0px 10px 5px #F5DA81;
 		margin-left: 10%;
 		width: 79%;
+		margin-bottom: 5%;
 	}
 	.text_4{
 		left: 60%;
