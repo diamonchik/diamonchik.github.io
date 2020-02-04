@@ -495,9 +495,9 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 .logo_banner_mb{
-		margin-top: 14%;
-		position: absolute;
-		display: none;
+	margin-top: 14%;
+	position: absolute;
+	display: none;
 	}
 #content_mb{
 	display: none;
