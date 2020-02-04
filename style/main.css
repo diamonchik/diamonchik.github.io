@@ -2,7 +2,6 @@ body{
 	background: url(img/back.png)  ;
 	background-size: 100%;
 	overflow-x: hidden;
-
 	margin: 0;
 }
 #header {
@@ -539,7 +538,7 @@ body{
     font-weight: 600;
     line-height: 30px;
     color: white;
-    font-size: 15px;    
+    font-size: 160%;    
     text-transform: uppercase;
 	background: #f4d430;
 	border-width: 0;
