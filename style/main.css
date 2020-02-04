@@ -526,6 +526,8 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 .btn {
+	width: 60%;
+	height: 10%;
 	position: relative;
     overflow: hidden;
     z-index: 1;
@@ -544,7 +546,7 @@ body{
     box-shadow: 5px 5px 0 #532831;
 	outline: none;
 	cursor: pointer;
-    transition: 1.5s;
+    transition: 3s;
 }
 .btn:before,
 .btn:after {
@@ -554,7 +556,7 @@ body{
     left: -50%;
     margin-top: -100px;    
     top: 50%;
-    width: 200px;
+    width: 300px;
 	border-radius: 50%;
     opacity: 0.3;
     z-index: -1;
