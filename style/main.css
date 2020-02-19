@@ -126,7 +126,7 @@ body{
 }
 .butt p4{
 	border-radius: 20px;
-	font-size: 130%;
+	font-size: 127%;
 	font-weight: 600;
 	font-family: 'Oswald', sans-serif;
 	padding: 0.7%;
@@ -403,7 +403,7 @@ body{
   top: 13%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 3;
   width: 50vw;
   height: auto;
   display: none;

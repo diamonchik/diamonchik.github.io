@@ -49,7 +49,6 @@ var burst2 = new mojs.Burst({
   }
 });
 
-// OPEN
 var openBackground = new mojs.Shape({
   fill: "#111820",
   scale: { 0: 8.5 },
@@ -62,17 +61,15 @@ var openBackground = new mojs.Shape({
 
 burst1.el.style.zIndex = 2;
 
-// check if the hamburger's been crossed
 let cross = spanOne.classList.contains("white");
 
-//timeline with burst and background open
 timelineOpen.add(burst1, burst2, openBackground);
-//timeline with background close
+
 timelineClose.add(openBackground);
 
-//click on the hamburger
+
 hamburger.addEventListener("click", function(e) {
-  // check if the menu is a cross
+
   var cross = spanOne.classList.contains("white");
 
   modalMenu.classList.toggle("show");
