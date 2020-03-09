@@ -1,4 +1,5 @@
 body{
+	max-width: 105%;
 	overflow-x: hidden;
 	background: url(img/back.png)  ;
 	background-size: 100%;
@@ -429,7 +430,7 @@ body{
 #header_mb{
 	overflow: hidden;
 	display: none;
-	width: 110%;
+	width: 100%;
 	height: 14%;
 	background-color: #f4d430;
 }
