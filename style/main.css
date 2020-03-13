@@ -1,7 +1,7 @@
 body{
 	max-width: 105%;
 	overflow-x: hidden;
-	background: url(img/back.png)  ;
+	background: url(img/back.png);
 	background-size: 100%;
 	margin: 0;
 }
@@ -442,10 +442,14 @@ body{
 	color: black;
 }
 .logo_mb p1{
+	top: -0.15%;
+	z-index: 5;
+	position: absolute;
 	font-size: 300%;
 	font-family: 'Oswald', sans-serif;
 }
 .logo_mb p2{
+	margin-left: 220%;
 	font-size: 200%;
 	font-family: 'Oswald', sans-serif;
 }
@@ -533,7 +537,7 @@ body{
 }
 nav {
 	position: absolute; 
-	width: 100%;
+	width: 95%;
 	height: 65px;
 }
 #menuToggle {
@@ -550,8 +554,8 @@ nav {
 #menuToggle input {
 	right: 7%;	
 	display: flex;
-	width: 40px;
-	height: 32px;
+	width: 66px;
+	height: 40px;
 	position: absolute;
 	cursor: pointer;
 	opacity: 0;
@@ -559,8 +563,8 @@ nav {
 }
 #menuToggle span {			
 	display: flex;
-	width: 43px;
-	height: 6px;
+	width: 55px;
+	height: 8px;
 	position: absolute;
 	margin-left: 87%;
 	margin-bottom: 5px;
@@ -610,6 +614,7 @@ nav {
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 #menu li{
+	margin-top: 3%;
 	padding: 10px 0;
 	transition-delay: 2s;
 }
@@ -619,6 +624,11 @@ nav {
 ul {
 	padding: 0;
 	list-style-type: none;
+}
+#menu a{
+	text-decoration: none;
+	color: black;
+	border: 10px solid #f4d430;
 }
 @media screen and (max-width:1066px){
 	.menu{
@@ -733,10 +743,10 @@ ul {
 	}
 	.blockbuy_down{
 		background-color: #f4d430;
-		height: 8%;
+		height: 9%;
 	}
 	.blockbuy_down p3{
-		font-size: 200%;
+		font-size: 300%;
 	}
 	.det p4{
 		right: 33%;
@@ -745,6 +755,9 @@ ul {
 		margin-top: 50%;
 	}
 	.shop p1{
+		font-size: 300%;
+	}
+	.price p2{
 		font-size: 300%;
 	}
 }
