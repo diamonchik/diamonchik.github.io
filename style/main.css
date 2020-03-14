@@ -151,6 +151,7 @@ body{
 	margin-top: 5%;
 }
 .shop{
+	float: left;
 	margin-top: 4%;
 	text-align: center;
 	width: 90%;
@@ -202,6 +203,10 @@ body{
 	padding-right: 7%;
 	padding-left: 7%;
 	border-radius: 40px;
+}
+.img_t{
+	width: 80%;
+	margin-top: 20%;
 }
 .price{
 	z-index: 4;
