@@ -745,14 +745,19 @@ ul {
 		width: 80%;
 	}
 	.blockbuy_set{
+		border-radius: 80px;
 		height: 60%;
 	}
 	.blockbuy_down{
+		border-radius: 120px;
 		background-color: #f4d430;
 		height: 9%;
 	}
 	.blockbuy_down p3{
 		font-size: 300%;
+	}
+	.det{
+		border-radius: 80px;
 	}
 	.det p4{
 		right: 33%;
@@ -763,10 +768,13 @@ ul {
 	.shop p1{
 		font-size: 400%;
 	}
+	.price{
+		border-radius: 120px 0px 120px 0px;
+	}
 	.price p2{
 		font-size: 300%;
 	}
 	.img_t{
-		margin-top: 10%;
+		margin-top: 14%;
 	}
 }
