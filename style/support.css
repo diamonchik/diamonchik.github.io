@@ -1,0 +1,75 @@
+#support{
+	width: 100%;
+	height: 150%;
+}
+.help{
+	margin-top: 4%;
+	width: 100%;
+	text-align: center;
+}
+.help p1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 300%;
+}
+.help p2{
+	margin-left: 15%;
+	margin-right: 15%;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+}
+.input{
+	text-align: center;
+	margin-top: 10%;
+	width: 100%;
+}
+.search_1{
+	box-shadow: #FE2E64 0px 0px 0px;
+	border-radius: 20px;
+	height: 5%;
+	width: 80%;
+	color: black;
+	background-color: #f4d430;
+	border: none;
+	outline: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+	padding-left: 2%;
+	transition: .3s;
+}
+.search_1:hover{
+	box-shadow: #FE2E64 4px 4px 4px;
+}
+.search_2{
+	margin-top: 1.5%;
+	box-shadow: #819FF7 0px 0px 0px;
+	border-radius: 40px;
+	height: 16.7%;
+	width: 80%;
+	color: black;
+	background-color: #f4d430;
+	border: none;
+	outline: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+	padding-left: 2%;
+	transition: .3s;
+}
+.search_2:hover{
+	box-shadow: #819FF7 4px 4px 4px;
+}
+.otp{
+	border-radius: 0px 0px 20px 20px;
+	font-size: 150%;
+	color: black;
+	background-color: #f4d430;
+	width: 10%;
+	height: 5%;
+	font-family: 'Oswald', sans-serif;
+	border: none;
+	outline: none;
+	transition: 1s;
+}
+.otp:hover{
+	background-color: #F3F781;
+}
