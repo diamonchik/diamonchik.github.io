@@ -18,6 +18,37 @@
 	font-family: 'Oswald', sans-serif;
 	font-size: 150%;
 }
+.help p3{
+	float:left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+}
+.help p4{
+	margin-right: 20%;
+	float:right;
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+}
+a{
+	text-decoration: none;
+	color: black;
+	transition: .5s;
+}
+a:hover {
+	color: #FE2E2E;
+}
+.icon_sup{
+	margin-left: 10%;
+	float: left;
+	width: 3%;
+}
+.icon_sup_r{
+	float: right;
+	width: 3%;
+}
+.icon_sup_rm{
+	display: none;
+}
 .input{
 	text-align: center;
 	margin-top: 10%;
@@ -72,4 +103,49 @@
 }
 .otp:hover{
 	background-color: #F3F781;
+}
+@media screen and (max-width:980px){
+	#support{
+		margin-top: 40%;
+		height: 80%;
+	}
+	.icon_sup{
+	width: 7%;
+	}
+	.icon_sup_r{
+	display: none;
+	}
+	.help p1{
+		font-size: 400%;
+	}
+	.help p2{
+		font-size: 200%;
+	}
+	.help p3{
+		font-size: 250%;
+	}
+	.help p4{
+		float: left;
+		font-size: 250%;
+	}
+	.icon_sup_rm{
+	margin-left: 10%;
+	float: left;
+	display: block;
+	width: 7%;
+	}
+	.search_1{
+		height: 7%;
+		width: 90%;
+		margin-top: 10%;
+	}
+	.search_2{
+		width: 90%;
+	}
+	.otp{
+		height: 7%;
+		margin-top: 5%;
+		width: 30%;
+		border-radius: 20px 20px 20px 20px;
+	}
 }
