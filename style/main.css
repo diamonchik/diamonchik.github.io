@@ -776,6 +776,7 @@ a:hover #copyright{
 		border-radius: 40px;
 	}
 	.blockbuy_down{
+		padding-bottom: 5%;
 		border-radius: 40px;
 		background-color: #D8D8D8;
 	}
@@ -792,6 +793,6 @@ a:hover #copyright{
 		margin-top: 14%;
 	}
 	.img_t{
-		margin-top: 13%;
+		margin-top: 5%;
 	}
 }
