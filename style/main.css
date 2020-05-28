@@ -741,3 +741,57 @@ a:hover #copyright{
 	 	margin-bottom: 8%;
 	}
 }
+@media screen and (orientation:landscape) and (max-device-width: 980px){
+	#menu{
+		height: 20%;
+	}
+	#header{
+		display: block;
+	}
+	#header_mb{
+		display: none;
+	}
+	.logo_banner_mb{
+		display: none;
+	}
+	#copyright p1{
+		font-size: 200%;
+	}
+	.hey{
+		margin-top: 15%;
+	}
+	.btn{
+		height: 12%;
+	}
+	.blockbuy{
+		background-color: white;
+		box-shadow: none;	
+		border-radius: 40px 40px 22px 22px;
+		margin-top: 8% ;
+		margin-left: 4.75%;
+		width: 27%;
+		height: 55%;
+	}
+	.blockbuy_set{
+		border-radius: 40px;
+	}
+	.blockbuy_down{
+		border-radius: 40px;
+		background-color: #D8D8D8;
+	}
+	.price{
+		border-radius: 40px 0px 40px 0px;
+	}
+	.price p2{
+		font-size: 160%;
+	}
+	.blockbuy_down p3{
+		font-size: 140%;
+	}
+	.shop{
+		margin-top: 14%;
+	}
+	.img_t{
+		margin-top: 13%;
+	}
+}

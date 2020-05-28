@@ -149,3 +149,45 @@ a:hover {
 		border-radius: 20px 20px 20px 20px;
 	}
 }
+@media screen and (orientation:landscape) and (max-device-width: 980px){
+	#support{
+		margin-top: 0%;
+		height: 150%;
+	}
+	.icon_sup{
+	width: 3%;
+	}
+	.icon_sup_r{
+	display: block;
+	}
+	.help p1{
+		font-size: 300%;
+	}
+	.help p2{
+		font-size: 150%;
+	}
+	.help p3{
+		font-size: 150%;
+	}
+	.help p4{
+		float: left;
+		font-size: 150%;
+	}
+	.icon_sup_rm{
+	display: none;
+	}
+	.search_1{
+		height: 5%;
+		width: 80%;
+		margin-top: 0%;
+	}
+	.search_2{
+		width: 80%;
+	}
+	.otp{
+		height: 5%;
+		margin-top: 0%;
+		width: 12%;
+		border-radius: 0px 0px 20px 20px;
+	}
+}
