@@ -1,38 +1,184 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="style/img/logo.ico" type="image/x-icon">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <!DOCTYPE html>
-        <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <style>
-                    body { width: 100%; height: 100%; margin: 0; position: fixed; background: rgba(25,25,25, 1) }
-                    canvas { width: 100%; height: 100%; outline: none; }
-                    #container { width: 100%; height: 100%; position: relative; }
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet"  href="style/preloader.css">
+	<script src="js/preloader.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+	<title>Spectrum studio</title>
+</head>
+<body>
+	<div id="page-preloader" class="preloader">
+		<img src="style/img/logo.gif" class="pre">
+	</div>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="js/app.js"></script>
+	<div id="arrow">
+		<img src="style/img/arrow_en.png" class="arrow_img">
+	</div>
+	<div id='container'>     
+        <canvas id="canvas3d"></canvas>
+    </div>
 
-                    
-                </style>
-                <title>Dima_zaebalsa</title>
-            </head>
-            <body>
-                
-                <div id='container'>
-                    
-                    <canvas id="canvas3d"></canvas>
-                    
-                        
-                    
-                </div>
+    <script>
+        // Global namespace (backwards-compatibility)
+        var SPE = {};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.spline.design/lib/anime.min.js"></script>
+    <script src="https://cdn.spline.design/lib/spline.runtime.min.js"></script>
+    <script src="js/assets.js"></script>
+    <script src="js/scene.js"></script>
+    <script src="js/main.js"></script>
+	<div id="header">
+		<div class="menu">
+			<div class="left_menu">
+				<a href="index.html">
+				<p1><img src="style/img/line.png" class="control_left">En</p1>
+				</a>
+				<a href="index_ru.html">
+				<p2><img src="style/img/line.png" class="control_left">Ru</p2>
+				</a>
+				<a href="index_pl.html">
+				<p2><img src="style/img/line.png" class="control_left">Pl</p2>
+				</a>
+			</div>
+			<div class="center_menu">
+				<a href="index.html">
+				<p1><img src="style/img/line.png" class="control">Main page</p1>
+				</a>
+				<a href="index.html">
+				<img src="style/img/logo.png" class="logo">
+				</a>
+				<a href="portfolio.html">
+				<p2><img src="style/img/line.png" class="control">Portfolio</p2>
+				</a>
+			</div>
+			<div class="right_menu">
+				<a href="contact.html">
+				<button class="but_us">
+					<p1>Contact me</p1>
+				</button>
+				</a>
+			</div>
+		</div>
+		<div class="text_logo">
+			<p1>Hi! I’m Dmytrii Barabash</p1><br>
+			<p2>Designer/Creator Spectrum st.</p2><br><br>
+			<p3>A specialist in Web design and Instagram design,<br> 
+			who wants to make the world more beautiful</p3><br>
+			<div class="cv">
+				<p4>Email :</p4><br><br>
+				<p5>Fy399047@gmail.com</p5>
+				<button class="cv_but_1">Download CV</button>
+			</div>
+			<div class="cv">
+				<p4>Instagram :</p4><br><br>
+				<p5>Spectrum_studios</p5>
+				<a href="portfolio.html">
+				<button class="cv_but_2">Portfolio</button>
+				</a>
+			</div>
+		</div>
+		<div class="design">
+			<a href="#">
+			<div class="forse" data-aos="fade-up">
+				<img src="style/img/ok_1.png" class="ok_img"><br>
+				<img src="style/img/arrow.png" class="ok_arrow">
+				<p1>Design</p1><br>
+				<p2>Logo , Animation , Poster</p2>
+			</div>
+			</a>
+			<a href="#">
+			<div class="forse" data-aos="fade-up" data-aos-delay="100">
+				<img src="style/img/ok_2.png" class="ok_img"><br>
+				<img src="style/img/arrow.png" class="ok_arrow">
+				<p1>Inst. design</p1><br>
+				<p2>Logo , Stories , Development<br>
+ 				of presets , Palette selection</p2>
+			</div>
+			</a>
+			<a href="#">
+			<div class="forse" data-aos="fade-up" data-aos-delay="200">
+				<img src="style/img/ok_3.png" class="ok_img"><br>
+				<img src="style/img/arrow.png" class="ok_arrow">
+				<p1>Web design</p1><br>
+				<p2>Website development , 3d<br> 
+				technology on the site</p2>
+			</div>
+			</a>
+		</div>
+	</div>
+	<div id="content">
+		<div class="about" data-aos="fade-left" data-aos-delay="200">
+			<div class="rotate_text">
+			<p1> —— About me</p1>
+			</div>
+			<p2>Need creative design ?<br>
+			I can help you !</p2>
+			<p3>Everyone wants to stand out both in the sales market 
+			and in their blog. I can help you, I have been designing 
+			for 3 years, and so I came out of freelance exchanges and 
+			decided to create my own studio that will 
+			give beauty to everyone.</p3><br><br><br><br>
+			<p4>You can follow Me also Here :</p4><br><br>
+			<a href="#" class="open-popup">
+			<img src="style/img/inst.png" class="fol">
+			<p5>Instagram</p5>
+			</a>
+			<a href="#">
+			<img src="style/img/pint.png" class="fol">
+			<p6>Pinterest</p6>
+			</a>
+		</div>
+		<div class="skill" data-aos="fade-right" data-aos-delay="200">
+			<div class="rotate_text">
+			<p1> —— My skill</p1>
+			</div>
+			<p2>My skill(approximate)<br>
+			What can I do?</p2>
+			<p3>I have a set of knowledge necessary to make your 
+			design unusual and individual, which will 
+			also affect sales.</p3>
+		</div>
+		<div class="skill_box">
+			<div class="box" data-aos="zoom-out">
+				<img src="style/img/skill_ico_1.png" class="s_ico"><br><br>
+				<p7>Logo design</p7>
+			</div>
+			<div class="box_d" data-aos="zoom-out">
+				<img src="style/img/skill_ico_2.png" class="s_ico"><br><br>
+				<p7>Motion design</p7>
+			</div>
+			<div class="box" data-aos="zoom-out">
+				<img src="style/img/skill_ico_3.png" class="s_ico"><br><br>
+				<p7>Grafik design</p7>
+			</div>
+			<div class="box_d" data-aos="zoom-out">
+				<img src="style/img/skill_ico_4.png" class="s_ico"><br><br>
+				<p7>Web design</p7>
+			</div>
+		</div>
+	</div>
 
-                <script>
-                    // Global namespace (backwards-compatibility)
-                    var SPE = {};
-                </script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-                <script src="https://cdn.spline.design/lib/anime.min.js"></script>
-                <script src="https://cdn.spline.design/lib/spline.runtime.min.js"></script>
-                <script src="js/assets.js"></script>
-                <script src="js/scene.js"></script>
-                <script src="js/main.js"></script>
-            </body>
-        </html>
-        
+	<div class="popup-bg">
+		<div class="popup">
+			<img class="close-popup" src="style/img/ok_1.png">
+			<a href="#">
+			<p>My own Instagram</p>
+			</a> 
+			<a href="#">
+			<p>Instagram with my works</p>
+			</a> 
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/popup.js"></script>
+</body>
+</html>
