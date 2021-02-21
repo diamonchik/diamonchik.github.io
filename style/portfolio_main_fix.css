@@ -1,0 +1,34 @@
+html{
+	scroll-behavior: smooth;
+}
+.text_logo{
+	margin-left: 3%;
+	margin-top: 9%;
+}
+.text_logo p2{
+	color: #B18904;
+}
+#Portfolio{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+.pf{
+	width: 100%;
+	height: auto;
+}
+.pf_case{
+	width: 100%;
+}
+.pf_text{
+	margin-top: 7%;
+	margin-bottom: 3%;
+	text-align: center;
+	width: 100%
+}
+.pf_text p1{
+	color: #a1a1a0;
+	font-family: 'Montserrat', Bold;
+	font-weight: 700;
+	font-size: 380%;
+}
